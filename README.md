@@ -19,7 +19,7 @@ We released [Version 0.2.0](https://github.com/meta-llama/llama-stack/releases/t
 
 \
 *Note you need 8xH100 GPU-host to run these models*
-
+t
 ```bash
 pip install -U llama_stack
 
