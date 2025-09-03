@@ -21,7 +21,7 @@ We released [Version 0.2.0](https://github.com/meta-llama/llama-stack/releases/t
 *Note you need 8xH100 GPU-host to run these models*
 
 ```bash
-pip install -U llama_stack
+pip install -U llama_stackttt
 
 MODEL="Llama-4-Scout-17B-16E-Instruct"
 # get meta url from llama.com
