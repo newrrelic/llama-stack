@@ -59,7 +59,6 @@ jobs:
           echo "github.actor: ${{ github.actor }}"
 
       - name: Commit changes for dependabot PRs
-        if: github.actor == 'dependabot[bot]'
         run: |
           if ! git diff --exit-code || [ -n "$(git ls-files --others --exclude-standard)" ]; then
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
